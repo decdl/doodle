@@ -17,7 +17,7 @@ DoodleFrame.o: DoodleFrame.cpp precompile.h.gch
 DoodlePanel.o: DoodlePanel.cpp precompile.h.gch
 	$(CXX) $(CXX_FLAGS) -c DoodlePanel.cpp -o DoodlePanel.o
 
-precompile.h.gch: precompile.h
+precompile.h.gch: precompile.h Doodle.h DoodleFrame.h DoodlePanel.h
 	$(CXX) $(CXX_FLAGS) -c precompile.h -o precompile.h.gch
 
 clean:
