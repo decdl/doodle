@@ -1,5 +1,5 @@
 
-#include "precompile.h"
+#include "prec.h"
 
 wxBEGIN_EVENT_TABLE(DoodlePanel, wxControl)
 	EVT_MOTION(DoodlePanel::OnMouseMove)

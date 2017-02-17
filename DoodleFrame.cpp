@@ -1,5 +1,5 @@
 
-#include "precompile.h"
+#include "prec.h"
 
 wxBEGIN_EVENT_TABLE(DoodleFrame, wxFrame)
 wxEND_EVENT_TABLE();
